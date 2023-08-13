@@ -2,17 +2,12 @@ html{
  background-color: rgb(247, 248, 248);
 }
 
-#heading{
-   background-color: rgb(253, 243, 230);
-   text-align: center;
-}
-
-#font1{
-    color: coral;
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+header{
+    background-color: #ffab3c;
     text-align: center;
 }
+
+
 li{
     text-align: center;
 }
@@ -29,4 +24,56 @@ footer{
     margin-left: auto;
     margin-right: auto;
     width: 140%;
+}
+
+nav {
+    background-color: #ffab3c;
+ 
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+button {
+    background-color: #ffab3c;
+  border: none;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+}
+
+#button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%; 
+}
+
+.d_images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
